@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "vprenner.com/dwarf/protos";
+
+message ReqStartPanoramaByGrid{
+}
+
+message ReqStartPanoramaByEulerRange{
+    float yaw_range = 1;
+    float pitch_range = 2;
+}
+
+message ReqStopPanorama{
+
+}
